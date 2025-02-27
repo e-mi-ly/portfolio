@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Linh - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/li-logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/linh_avatar.jpg" alt="My Linh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Le Thi My Linh">Le Thi My Linh</h1>
+
+          <p class="title">.NET Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email - Skype</p>
+
+              <a href="mailto:linhltm.uit@gmail.com" class="contact-link">linhltm.uit@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+84356444804" class="contact-link">+84 356444804</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthyear</p>
+
+              <time>1996</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ho Chi Minh, Viet Nam</address>
+            </div>
+
+          </li>
+
+        </ul>
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a nearly 5 years of experience in software development, specializing in .NET Developer and have 2 years in React and front-end web technologies.
+          </p>
+
+          <p>
+            My job is to build scalable and efficient web applications. 
+            Strong problem-solving abilities and a passion for continuous learning and improvement. 
+            Currently seeking opportunities to grow as a full-stack engineer and a senior web developer.
+          </p>
+        </section>
+
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <ul class="service-list">
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intermediate .NET Developer</h4>
+              <h3 class="h3 timeline-item-name">Mediastep Software Inc.</h3>
+              <span>02/2023 — Present</span>
+
+              <p class="timeline-text">Responsibilities:</p>
+              <p class="timeline-text">- Participate in the implementation of new features for upcoming versions as a full-stack web developer.</p>
+              <p class="timeline-text">- Fix bugs and improve performance related to the current system flow as well as existing functionalities.</p>
+              <p class="timeline-text">- Actively collaborate with other departments, such as Business Analysts, to receive, clarify, and address requirements for implementation. Work with Quality Assurance to ensure that functions meet all customer use cases.</p>
+              <p class="timeline-text">- Demonstrate strong teamwork abilities, including discussing, dividing tasks, and addressing issues related to the technologies used and challenges encountered during implementation.</p>
+              <p class="timeline-text">- Write and optimize SQL stored procedures, views, and functions</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Back-end Developer</h4>
+              <h3 class="h3 timeline-item-name">GVI HCM - Global Vertical Innovations, LLC</h3>
+              <span>07/2020 - 01/2023</span>
+
+              <p class="timeline-text">Responsibility:</p>
+              <p class="timeline-text">- Join the team to develop the web for the E-Commerce system.</p>
+              <p class="timeline-text">- Analysis requirements, research, meeting to design the infrastructure of the project, break tasks, estimate, and implement the functions essential and integration.</p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineering</h4>
+              <h3 class="h3 timeline-item-name">University of Information Technology - UIT</h3>
+              <span>2015-2020</span>
+
+              <p class="timeline-text">
+                GPA: 8.11/10
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">English</h4>
+              <p class="timeline-text">I am able to use English to communicate effectively, exchange and receive information from customers, read and understand requirements and business documents to compile them into technical documents.</p>
+              <p class="timeline-text">
+                TOEIC: 775/990 - IIG Vietnam
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="globe-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h3 class="h3 timeline-item-name">Auvenir</h3>
+
+              <p class="timeline-text">
+                Auvenir is an intelligent, cloud-based client engagement platform that enables firms to leverage the best of today’s technology to create a better engagement experience for practitioners and their respective clients. Auvenir helps build a better engagement experience for firms and organizations, their teams, and their clients.
+              </p>
+              <h2 class="h3 timeline-item-title">Technologies:</h2>
+              <p class="timeline-text">- .NET Core, HTML, CSS, React, EF Core, LINQ, SSO, SignalR, Redis, SharePoint, Spreadjs, DevExpress</p>
+              <p class="timeline-text">- Database: SQL Server</p>
+              <p class="timeline-text">- Design pattern: DI, Repository, UoW, Factory, Microservices</p>
+              <p class="timeline-text">- Microsoft Azure, Azure DevOps, Azure Functions, Service Bus, Blob Storage</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="h3 timeline-item-name">Payment System</h3>
+
+              <p class="timeline-text">
+                The payment system is designed to enable users from third-party applications to pay their invoices via supported payment service providers or endpoints. This would be the primary method of revenue collection within RIVIR and be interlinked directly into the downstream accounting and reporting.              </p>
+              <p class="timeline-text">Technologies: .NET Core, EF Core, Identity Server4, Authorize.net, FTP, SQL Server</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="h3 timeline-item-name">RIVIR</h3>
+
+              <p class="timeline-text">
+                RIVIR is a web-based application where Sellers, Brokers, Manufacturing, and Retailer register their products which are certified as GS1 standards to improve efficiency, safety, and visibility, and shared key information about products with end-users.
+              </p>
+              <h2 class="h3 timeline-item-title">Technologies:</h2>
+              <p class="timeline-text">- .NET Core, EF Core, Hangfire, Serilog, RestSharp, Identity Server4, SignalR</p>
+              <p class="timeline-text">- Database: SQL Server, MongoDB</p>
+              <p class="timeline-text">- Search engine: Elasticsearch</p>
+              <p class="timeline-text">- File: Aspose.Cells, Aspose.Words, Aspose.Slides, Aspose.PDF, Dropbox, Google Cloud Storage, Image Magick</p>
+              <p class="timeline-text">- Google Cloud Platform</p>
+              <p class="timeline-text">- Source management: Azure DevOps</p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C#</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">.NET</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://auvenir.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Auvenir</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.gorivir.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RIVIR</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
