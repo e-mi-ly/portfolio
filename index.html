@@ -16,6 +16,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./style.css">
 
   <!--
     - google font link
@@ -23,6 +24,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--
+    - Font Awesome link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -88,21 +94,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+84356444804" class="contact-link">+84 356444804</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthyear</p>
-
-              <time>1996</time>
+              <a href="tel:+84356444804" class="contact-link">(+84) 356444804</a>
             </div>
 
           </li>
@@ -119,6 +111,27 @@
               <address>Ho Chi Minh, Viet Nam</address>
             </div>
 
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="share-social-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Socials Links</p>
+
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/linh-le-my97/" class="social-link" target="_blank">
+                  <i class="fab fa-linkedin" style="color: #ffb400;"></i>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/e-mi-ly" class="social-link" target="_blank">
+                  <i class="fab fa-github" style="color: #ffb400;"></i>
+                  <span>Github</span>
+                </a>
+              </div>
+            </div>
           </li>
 
         </ul>
@@ -173,6 +186,12 @@
             Strong problem-solving abilities and a passion for continuous learning and improvement. 
             Currently seeking opportunities to grow as a full-stack engineer and a senior web developer.
           </p>
+
+          <div class="download-resume">
+            <a href="./file/MyLinhCV_0603.pdf" download class="download-btn">
+              Download Resume
+            </a>
+          </div>
         </section>
 
 
@@ -288,7 +307,6 @@
           </ol>
 
         </section>
-
         
         <section class="timeline">
 
@@ -307,7 +325,7 @@
               <h3 class="h3 timeline-item-name">Auvenir</h3>
 
               <p class="timeline-text">
-                Auvenir is an intelligent, cloud-based client engagement platform that enables firms to leverage the best of today’s technology to create a better engagement experience for practitioners and their respective clients. Auvenir helps build a better engagement experience for firms and organizations, their teams, and their clients.
+                Auvenir is an intelligent, cloud-based client engagement platform that enables firms to leverage the best of today's technology to create a better engagement experience for practitioners and their respective clients. Auvenir helps build a better engagement experience for firms and organizations, their teams, and their clients.
               </p>
               <h2 class="h3 timeline-item-title">Technologies:</h2>
               <p class="timeline-text">- .NET Core, HTML, CSS, React, EF Core, LINQ, SSO, SignalR, Redis, SharePoint, Spreadjs, DevExpress</p>
@@ -348,66 +366,62 @@
 
         </section>
 
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">C#</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">.NET</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SQL</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">React</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
+        <section class="tech-stack" id="tech-stack">
+          <h2 class="section-title">My Tech Stack</h2>
+          <div class="tech-container">
+            <div class="tech-item">
+              <i class="fab fa-microsoft" style="color: #512BD4;"></i>
+              <span>C#</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-microsoft" style="color: #512BD4;"></i>
+              <span>.NET</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-database" style="color: #00A4EF;"></i>
+              <span>Entity Framework</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-database" style="color: #CC2927;"></i>
+              <span>SQL Server</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-microsoft" style="color: #008AD7;"></i>
+              <span>Microsoft Azure</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-git-alt" style="color: #F05032;"></i>
+              <span>Git</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-github" style="color: #ffffff;"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-html5" style="color: #E34F26;"></i>
+              <span>HTML</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+              <span>CSS</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-js" style="color: #F7DF1E;"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-react" style="color: #61DAFB;"></i>
+              <span>ReactJS</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-node-js" style="color: #339933;"></i>
+              <span>NodeJS</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-database" style="color: #4DB33D;"></i>
+              <span>MongoDB</span>
+            </div>
+          </div>
         </section>
 
       </article>
@@ -464,7 +478,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Auvenir</h3>
@@ -482,7 +496,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/project-2.jpg" alt="orizon" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">RIVIR</h3>

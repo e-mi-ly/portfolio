@@ -1,0 +1,133 @@
+.tech-stack {
+    padding: 2rem 0;
+    background-color: var(--bg-primary);
+}
+
+.tech-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.2rem;
+    background-color: var(--bg-secondary);
+    border-radius: 50px;
+    border: 1px solid var(--border-primary);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    min-width: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tech-item:hover {
+    transform: translateY(-2px);
+    border-color: var(--action-primary);
+    box-shadow: 0 4px 8px rgba(100, 255, 218, 0.2);
+}
+
+.tech-item i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    color: #64ffda;
+    transition: all 0.3s ease;
+}
+
+.tech-item span {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .tech-container {
+        gap: 0.8rem;
+    }
+    
+    .tech-item {
+        padding: 0.4rem 1rem;
+    }
+    
+    .tech-item i {
+        font-size: 1rem;
+    }
+    
+    .tech-item span {
+        font-size: 0.8rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+.download-resume {
+    margin-top: 25px;
+    text-align: right;
+}
+
+.download-btn {
+    background-color: transparent;
+    color: #ffb400;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 1px solid #ffb400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.download-btn:hover {
+    background-color: rgba(255, 180, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+}
+
+.social-link i {
+    font-size: 16px;
+}
+
+.social-link span {
+    font-size: 12px;
+    color: #fff;
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+}
+
+.social-link:hover i {
+    color: #ffb400;
+}
+
+.social-link:hover span {
+    color: #ffb400;
+} 
